@@ -37,7 +37,7 @@ slug = Sluggo::Random.base62(6)
 # Widget with a .open_key? method that returns true if the 
 # supplied key isn't in use.
 
-slug = Sluggo.rare(6) {|slug| Widget.open_key?(slug)}
+slug = Sluggo.rare(length: 6) {|slug| Widget.open_key?(slug)}
 ```
 
 ## License ##

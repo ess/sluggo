@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    sluggo (0.0.0)
+    sluggo (0.0.2)
       radix62 (~> 1.0.1)
 
 GEM
