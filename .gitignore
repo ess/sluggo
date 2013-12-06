@@ -1,0 +1,9 @@
+/.bundle
+/.yardoc
+/bin
+/doc
+/tmp
+/pkg
+
+*.swp
+*~
